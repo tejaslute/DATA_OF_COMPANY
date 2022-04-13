@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Signup</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css">
+
+</head>
+
+<body class="">
+  <div class="container mt-4 bg-dark justify-cneter">
+    <div class="card bg-white col-6">
+      <div class="card-body ">
+        <h2>Signup-form</h2>
+        <form action="/post" method="POST">
+          <!-- <div class="form-group">
+            <label for="sr_no">SR NO</label>
+            <input type="text" class="form-control col-6 text-success" id="sr_no" placeholder="Enter sr no " name=" "
+              required>
+          </div> -->
+          <div class="form-group">
+            <label for="rm_code">RM Code</label>
+            <input type="text" class="form-control col-6 text-success" id="rm_code" placeholder="Enter RM Code"
+              name="rm_code" required>
+          </div>
+          <div class="form-group">
+            <label for="lot_qty">lot_qty</label>
+            <input type="text" class="form-control col-6 text-success" id="lot_qty" placeholder="Enter lot_qty"
+              name="lot_qty" required>
+          </div>
+          <div class="form-group">
+            <label for="used_qty">used_qty</label>
+            <input type="text" class="form-control col-6 text-success" id="used_qty" placeholder="Enter used_qty"
+              name="used_qty" required>
+          </div>
+          <div class="form-group">
+            <label for="UoM">UoM</label>
+            <input type="text" class="form-control col-6 text-success" id="UoM" placeholder="Enter UoM" name="UoM"
+              required>
+          </div>
+
+          <div class="form-group">
+            <label for="lot_no">lot_no</label>
+            <input type="text" class="form-control col-6 text-success" id="lot_no" placeholder="Enter lot_no"
+              name="lot_no" required>
+          </div>
+          <div class="form-group">
+            <label for="storage_loc">storage_loc</label>
+            <input type="text" class="form-control col-6 text-success" id="storage_loc" placeholder="Enter storage_loc"
+              name="storage_loc" required>
+          </div>
+
+          <!-- <div class="form-group">
+            <label for="in_timestamp">in_timestamp</label>
+            <input type="text" class="form-control col-6 text-success" id="in_timestamp" placeholder="Enter time"
+              name="in_timestamp" required>
+          </div> -->
+
+          <button type="submit" class="btn btn-primary align-center">Submit</button>
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>
